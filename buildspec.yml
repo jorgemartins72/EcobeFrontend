@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - echo $ECR
-      - echo $ECR/$IMAGE_NAME:latest
+      - echo $ECR:latest
       - echo Logando no Docker Hub...
       - docker login --username $DOCKERHUB_USERNAME --password $DOCKERHUB_PASS
       - echo Logando no Amazon ECR...
