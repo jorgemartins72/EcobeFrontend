@@ -14,12 +14,12 @@ phases:
       - echo Build iniciado em `date`
       - echo Building a imagem Docker...
       - docker build -t $IMAGE_NAME .
-      - docker tag $IMAGE_NAME:latest $ECR/$IMAGE_NAME:latest
+      - docker tag $IMAGE_NAME:latest $ECR:latest
   post_build:
     commands:
       - echo Build completo em `date`
       - echo Pushing thea imagem Docker...
-      - docker push $ECR/$IMAGE_NAME:latest
-      - printf '[{"name":$IMAGE_NAME,"imageUri":$ECR/$IMAGE_NAME:latest}]' > imagedefinitions.json
+      - docker push $ECR:latest
+      - printf '[{"name":$IMAGE_NAME,"imageUri":$ECR:latest}]' > imagedefinitions.json
 artifacts:
   files: imagedefinitions.json
