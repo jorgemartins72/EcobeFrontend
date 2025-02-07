@@ -18,7 +18,7 @@ phases:
       - echo Build completo em `date`
       - echo Pushing thea imagem Docker...
       - docker push $ECR:latest
-      - printf '[{"name":"'$IMAGE_NAME'","imageUri":"'$ECR'":latest}])' > imagedefinitions.json
+      - printf '[{"name":"'$IMAGE_NAME'","imageUri":"'$ECR':latest"}])' > imagedefinitions.json
 
 artifacts:
   files: imagedefinitions.json
