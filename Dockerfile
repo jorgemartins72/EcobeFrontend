@@ -18,7 +18,8 @@ WORKDIR $APP_HOME
 COPY --from=builder /app/.output $APP_HOME/.output
 COPY --from=builder /app/.nuxt $APP_HOME/.nuxt
 
-RUN npm install npm@latest -g && npm install pm2 -g
+RUN npm install npm@latest -g
+# RUN npm install npm@latest -g && npm install pm2 -g
 
 ENV NUXT_HOST=0.0.0.0
 ENV NUXT_PORT=3000
@@ -26,5 +27,6 @@ ENV NODE_ENV=production
 
 EXPOSE 3000
 
-CMD [ "pm2-runtime", ".output/server/index.mjs" ]
+CMD [ "node", ".output/server/index.mjs" ]
+# CMD [ "pm2-runtime", ".output/server/index.mjs" ]
 # CMD [ "tail", "-f", "/dev/null" ]
