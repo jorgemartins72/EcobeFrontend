@@ -18,5 +18,8 @@
     "titleBar.inactiveBackground": "#52121299",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#521212"
+  "peacock.color": "#521212",
+  "workspaceInStatusBar.textInStatusBar": "ECOBE FRONTEND",
+  "workspaceInStatusBar.uppercase": true,
+  "workspaceInStatusBar.alignment": "left"
 }
