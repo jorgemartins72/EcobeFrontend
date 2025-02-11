@@ -1,5 +1,5 @@
 <template>
   <div>
-    ECOBE teste 3
+    ECOBE teste 4
   </div>
 </template>
