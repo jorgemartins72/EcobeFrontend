@@ -1,6 +1,6 @@
 <template>
-  <div class="text-3xl flex justify-center items-center h-screen">
-    ECOBE
+  <div>
+    LOGO
   </div>
 </template>
 
