@@ -1,13 +1,7 @@
 <template>
-  <div>
-    PATO
-  </div>
+  <div>PATO</div>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style>
-
-</style>
+<style></style>

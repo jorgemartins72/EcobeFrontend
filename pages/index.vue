@@ -1,13 +1,10 @@
 <template>
-  <div class="text-3xl flex justify-center items-center h-screen">
+  <div class="flex h-screen items-center justify-center text-3xl">
     ECOBE
+    <UiButton>Default</UiButton>
   </div>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style scoped>
-
-</style>
+<style scoped></style>

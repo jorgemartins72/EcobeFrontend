@@ -1,13 +1,7 @@
 <template>
-  <div>
-    GATO
-  </div>
+  <div>GATO</div>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style scoped>
-
-</style>
+<style scoped></style>

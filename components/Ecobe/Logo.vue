@@ -1,13 +1,7 @@
 <template>
-  <div>
-    LOGO
-  </div>
+  <div>LOGO</div>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style scoped>
-
-</style>
+<style scoped></style>
