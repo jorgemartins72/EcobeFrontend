@@ -72,10 +72,10 @@
     @apply border-border;
   }
   html {
-    @apply antialiased;
+    @apply antialiased tracking-tight font-light;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground bg-white text-gray-600;
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 }

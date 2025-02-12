@@ -20,8 +20,16 @@ module.exports = {
         roboto: ['Roboto', 'serif'],
         robotoc: ['Roboto Condensed', 'sans-serif'],
         geologica: ['Geologica', 'sans-serif'],
+        geist: ['Geist', 'sans-serif'],
         sans: ['Geist', 'Roboto', 'Helvetica', 'Arial', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'ui-sans-serif', 'system-ui', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
         mono: ["'Fira Code'", ...fontFamily.mono],
+      },
+      gridTemplateRows: {
+        '16': 'repeat(16, minmax(0, 1fr))',
+        'layout': '200px minmax(900px, 1fr) 100px'
+      },
+      gridRow: {
+        'span-16': 'span 16 / span 16',
       },
       borderRadius: {
         lg: "var(--radius)",
