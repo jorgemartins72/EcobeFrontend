@@ -79,3 +79,17 @@
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 }
+
+@layer components {
+  .json-debug {
+    @apply text-[10px] leading-none
+  }
+
+  .fontpainel-title {
+    @apply font-bold text-3xl text-gray-800
+  }
+
+  .grid-cols-13 {
+    @apply grid-template-columns: repeat(13, 1fr);
+  }
+}
